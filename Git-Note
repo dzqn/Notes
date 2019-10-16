@@ -1,0 +1,28 @@
+git config --global user.name "Adınız ve Soyadınız"
+git config --global user.email "epostaadresiniz@mobilhanem.com"
+
+git init
+
+git branch     -----> Hangi branch de olacağın.
+git branch yenikoya
+git checkout yenikopya   -----> Yeni branch e bağlantı sağlar.
+git diff master yenikopya
+git merge master yenikopya
+git merge feature1 --no-ff
+
+
+git status
+git checkout src/Test.java --> Değişiklikleri geri alır.
+git checkout 815029b1b00556b277a3b9b87c3b19e24dc755bd    -----> commit geri alır.
+git add .
+git add story.txt --> story.txt dosyasını ekler.
+git log
+git commit -m "ilk commit"
+git show 860792d460df775a172a02dde67645996fe304d9   -----> yapılan değişiklikleri gör
+git reset --soft "HEAD^"      -------> birden fazla olan commitleri combine eder.
+git remote show origin --> remote da ki bilgileri getirir.
+
+
+git stash save "ilkstash"
+git stash list
+git stash pop stash@{0}
