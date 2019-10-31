@@ -1,0 +1,3 @@
+# Java Notlarım
+
+* protected,final
