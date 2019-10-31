@@ -1,3 +1,6 @@
 # Java Notlarım
 
-* protected,final
+* c sharp da "selead" class'lar java da "final" olarak tanımlanır.
+Bu şekilde tanımlanan class field'leri miras yolu ile başka class'lara aktarılamaz.
+
+*
