@@ -1,1 +1,5 @@
 
+list --> [] Herşey var.
+tuple --> () Elamanları sabittir değiştiirlemez.Ekleme felan yapılamaz.readonly
+set --> {} elemanlarda index yoktur. python kendi kafasına göre dizer. Çok hızlı çalışır.
+dictionary --> C harp da dictionary, java da map'lere denk gelir.
