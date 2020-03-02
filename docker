@@ -1,2 +1,5 @@
 --> docker build --help 
---> 
+--> docker info (docker hakıkında bilgi verir. Kurulum başarılımı?)
+--> docker ps -a (list all container)
+--> docker images 
+--> docker search tomcat (Docker hub da tomcat imajları hakkında bilgi döner)
