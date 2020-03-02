@@ -3,3 +3,9 @@
 --> docker ps -a (list all container)
 --> docker images 
 --> docker search tomcat (Docker hub da tomcat imajları hakkında bilgi döner)
+
+* docker get busybox --> get busybox image from docker registry
+* docker run busybox echo "hello from busybox"
+* docker ps 
+* docker ps -a (all)
+* 
