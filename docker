@@ -1,11 +1,9 @@
---> docker build --help 
---> docker info (docker hakıkında bilgi verir. Kurulum başarılımı?)
---> docker ps -a (list all container)
---> docker images 
---> docker search tomcat (Docker hub da tomcat imajları hakkında bilgi döner)
+* cocker --version
+* docker pull hello-world --> ilgili imajı indirir.
+* docker run hello-world  --> ilgili imajdan bir container oluşturur. Bunu çalıştırır.
+* docker ps --> çalışan containerları listeler.
+* docker ps -a --> tüm containerları listeler.
+* docker start -a cd2420cf2157 --> idsi verilen conteiner ı çalıştırır. -a ile terminale attach olmasını sağlar. yoksa çalıştığını görmezsin
+* docker rm cd2420cf2157 --> ilgili containeri siler.
 
-* docker get busybox --> get busybox image from docker registry
-* docker run busybox echo "hello from busybox"
-* docker ps 
-* docker ps -a (all)
-* 
+
