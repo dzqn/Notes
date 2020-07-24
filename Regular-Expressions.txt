@@ -3,3 +3,8 @@
 $ --> Eşlendiği ifadenin sonunu belirtir. Boşluklar ve paragraf başındaki özel nesneler dikkate alınmaz.
 ^ --> "$" ifadesine ters olarak, eğer terim sadece paragraf başında ise aranılan ifadeyi bulur.
        ^ köşeli parantez [] içinde kullanıldığında kendisinden sonra belirtilen karakter veya grubun bulunmayacağını ifade eder.
+*   --> Önünde bulunduğu karakterin 0 veya tekrarlarıyla eşlenir. “.*” ifadesi bütün karakterlere eşlenirken, “a*t” ifadesi “t, tt, at” ile eşlenir.
+[]  --> Köşeli parantezler, içindeki tüm karakterlerle eşlenir. Örnek olarak “S[ai]z” ifadesi “Saz” ve “Siz” ile eşlenir.
+[c1-c2]   --> Belirtilen aralığa göre (- ile) eşleniklerin belirlenmesinde kullanılır. Örneğin “[0-9]” ifadesi bütün rakamlar ile eşlenir. Birleşik ifadeye örnek olarak “[A-Za-z]”               ifadesi de bütün harflerle büyük küçük ayrımı yapmadan eşlenecektir.
+
+( )  --> İfadeyi gruplandırır, gruplandırılmış ifadelerine denk gelen kalıpları (en fazla 9 kalıp) saklar.
