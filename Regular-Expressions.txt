@@ -11,3 +11,23 @@ $ --> Eşlendiği ifadenin sonunu belirtir. Boşluklar ve paragraf başındaki �
 |   --> Veya/yada anlamındadır, belirtilen iki ifadeyle ayrı ayrı eşlenebilir. Örneğin “k(a|u)le” ifadesi, “kale” ve “kule” ifadelerine eşlenir.
 +     --> Kendinden önce gelen ifadenin bir veya daha fazla kullanımına eşlenir. Örnek olarak “z+” ifadesi z, zz, zzz… ile eşlenir.
 ?     -->   Kendinden önce gelen ifadenin 0 veya 1 tekrarıyla eşlenir.
+
+
+Karakter Etiketleri
+“\d“
+[0-9] – herhangi bir rakam
+
+“\D“
+[^0-9] – rakam olmayan herhangi bir ifade
+
+“\w“
+[a-zA-Z0-9_] – türkçe harfler hariç, alfanümerik herhangi bir harf, rakam veya alt çizgi.
+
+“\W“
+[^a-zA-Z0-9_] – alfanümerik olmayan.
+
+“\s“
+[ \t\n\r\f] – herhangi bir boşluk karakteri
+
+“\S“
+[^ \t\n\r\f] – boşluk karakteri olmayan.
