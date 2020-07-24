@@ -9,3 +9,5 @@ $ --> Eşlendiği ifadenin sonunu belirtir. Boşluklar ve paragraf başındaki �
 
 ( )  --> İfadeyi gruplandırır, gruplandırılmış ifadelerine denk gelen kalıpları (en fazla 9 kalıp) saklar.
 |   --> Veya/yada anlamındadır, belirtilen iki ifadeyle ayrı ayrı eşlenebilir. Örneğin “k(a|u)le” ifadesi, “kale” ve “kule” ifadelerine eşlenir.
++     --> Kendinden önce gelen ifadenin bir veya daha fazla kullanımına eşlenir. Örnek olarak “z+” ifadesi z, zz, zzz… ile eşlenir.
+?     -->   Kendinden önce gelen ifadenin 0 veya 1 tekrarıyla eşlenir.
