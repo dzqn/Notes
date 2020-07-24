@@ -8,3 +8,4 @@ $ --> Eşlendiği ifadenin sonunu belirtir. Boşluklar ve paragraf başındaki �
 [c1-c2]   --> Belirtilen aralığa göre (- ile) eşleniklerin belirlenmesinde kullanılır. Örneğin “[0-9]” ifadesi bütün rakamlar ile eşlenir. Birleşik ifadeye örnek olarak “[A-Za-z]”               ifadesi de bütün harflerle büyük küçük ayrımı yapmadan eşlenecektir.
 
 ( )  --> İfadeyi gruplandırır, gruplandırılmış ifadelerine denk gelen kalıpları (en fazla 9 kalıp) saklar.
+|   --> Veya/yada anlamındadır, belirtilen iki ifadeyle ayrı ayrı eşlenebilir. Örneğin “k(a|u)le” ifadesi, “kale” ve “kule” ifadelerine eşlenir.
