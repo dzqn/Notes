@@ -1,1 +1,4 @@
 
+. --> Sayfa ya da paragraf sonu dışındaki herhangi bir karakteri temsil eder.
+$ --> Eşlendiği ifadenin sonunu belirtir. Boşluklar ve paragraf başındaki özel nesneler dikkate alınmaz.
+^ --> $” ifadesine ters olarak, eğer terim sadece paragraf başında ise aranılan ifadeyi bulur.
