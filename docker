@@ -36,4 +36,6 @@ docker attach <container_id>	Önceden detached modda -d başlatılan bir Contain
 2- docker tag bb38976d03cf yourhubusername/verse_gapminder:firsttry ile push edeceğin image'a tag ver.
 3- docker push yourhubusername/verse_gapminder ile hub' push et.
 
+1- docker build -t <image name> .  --> Docker image olusturma
+
 
