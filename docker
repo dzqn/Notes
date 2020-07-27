@@ -37,5 +37,6 @@ docker attach <container_id>	Önceden detached modda -d başlatılan bir Contain
 3- docker push yourhubusername/verse_gapminder ile hub' push et.
 
 1- docker build -t <image name> .  --> Docker image olusturma
+2- docker create --name cont1 imagename --> Container olusturma
 
 
