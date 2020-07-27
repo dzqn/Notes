@@ -32,3 +32,8 @@ docker exec -it <container_id> /bin/bash	Çalışan bir Container içinde termin
 docker attach <container_id>	Önceden detached modda -d başlatılan bir Container’a attach olmak için kullanılır
 
 
+1- docker login --username=yourhubusername ile login ol
+2- docker tag bb38976d03cf yourhubusername/verse_gapminder:firsttry ile push edeceğin image'a tag ver.
+3- docker push yourhubusername/verse_gapminder ile hub' push et.
+
+
