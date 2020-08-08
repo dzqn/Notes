@@ -1,5 +1,5 @@
 git config --global user.name "Adınız ve Soyadınız"
-git config --global user.email "epostaadresiniz@mobilhanem.com"
+git config --global user.email "epostaadresiniz@mail.com"
 
 git init
 
