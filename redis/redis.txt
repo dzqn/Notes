@@ -1,1 +1,5 @@
 Redis
+
+-- Database --> opsiyonel olarak disk üzerine yazma yapılabilir.
+-- Caching
+-- Message Broker
