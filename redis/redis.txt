@@ -3,3 +3,4 @@ Redis
 -- Database --> opsiyonel olarak disk üzerine yazma yapılabilir.(durability)
 -- Caching
 -- Message Broker
+-- Boş bir instance bellekte 1mb yer kaplar.
