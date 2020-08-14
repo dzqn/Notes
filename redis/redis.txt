@@ -1,5 +1,5 @@
 Redis
 
--- Database --> opsiyonel olarak disk üzerine yazma yapılabilir.
+-- Database --> opsiyonel olarak disk üzerine yazma yapılabilir.(durability)
 -- Caching
 -- Message Broker
