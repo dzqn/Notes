@@ -13,3 +13,13 @@ get name --> Ahmet
 keys *
 exists name --> 1
 del name --> 1
+append name " Tutar" 
+
+**** Hash
+hset user1 name Düzgün
+hset user1 surname Tutar
+hset user1 age 25
+hget user1 name
+ghetall user1
+
+set silinecek 123456 EX 10     --> 10 saniye sonra expire olur. Kayıt silinir.
