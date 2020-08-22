@@ -14,6 +14,7 @@ keys *
 exists name --> 1
 del name --> 1
 append name " Tutar" 
+flushall    --> delete all
 
 **** Hash
 hset user1 name Düzgün
