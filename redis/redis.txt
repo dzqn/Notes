@@ -1,9 +1,15 @@
-Redis
 
--- docker run --rm -p 1453:6379 --name rediscontainer -d redis --> run docker image on docker
+docker run --name myredis -p 6379:6379 redis         --> run docker image on docker
+docker exec -it myredis redis-clint                  --> Other terminal
 
--- Database --> opsiyonel olarak disk üzerine yazma yapılabilir.(durability)
--- Caching
--- Message Broker
--- Boş bir instance bellekte 1mb yer kaplar.
+Database --> opsiyonel olarak disk üzerine yazma yapılabilir.(durability)
+Caching
+Message Broker
+Boş bir instance bellekte 1mb yer kaplar.
 
+set name Ahmet
+get name --> Ahmet
+
+keys *
+exists name --> 1
+del name --> 1
