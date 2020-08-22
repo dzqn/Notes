@@ -1,6 +1,9 @@
 Redis
 
+-- docker run --rm -p 1453:6379 --name rediscontainer -d redis --> run docker image on docker
+
 -- Database --> opsiyonel olarak disk üzerine yazma yapılabilir.(durability)
 -- Caching
 -- Message Broker
 -- Boş bir instance bellekte 1mb yer kaplar.
+
