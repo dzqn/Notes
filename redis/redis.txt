@@ -1,6 +1,6 @@
 
 docker run --name myredis -p 6379:6379 redis         --> run docker image on docker
-docker exec -it myredis redis-clint                  --> Other terminal
+docker exec -it myredis redis-clint                  --> Other terminal. Open redis cli
 
 Database --> opsiyonel olarak disk üzerine yazma yapılabilir.(durability)
 Caching
