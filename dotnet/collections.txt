@@ -6,6 +6,7 @@ List<T>
 Queue<T>   --> Represents a first in, first out (FIFO) collection of objects.
 Stack<T>  --> Represents a last in, first out (LIFO) collection of objects.
 SortedList<TKey,TValue>  --> Represents a collection of key/value pairs that are sorted by key based on the associated IComparer<T> implementation
+Tuple
 
 System.Collections Classes
 
