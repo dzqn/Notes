@@ -1,4 +1,3 @@
-En çok kullanılanlar :
 
 Container, Row, Column, 
 Stack,Position
