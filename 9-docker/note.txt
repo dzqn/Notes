@@ -1,4 +1,4 @@
-Komut	Açıklaması
+***************************************************************
 docker images	Lokal registry’de mevcut bulunan Image’ları listeler
 docker ps	Halihazırda çalışmakta olan Container’ları listeler
 docker ps -a	Docker Daemon üzerindeki bütün Container’ları listeler
@@ -30,16 +30,27 @@ docker logs -f <container_id>	İlgili Container’ın terminalinde o ana kadar o
 docker exec <container_id> <command>	Çalışan bir Container içinde bir komut koşturmak için kullanılır
 docker exec -it <container_id> /bin/bash	Çalışan bir Container içinde terminal açmak için kullanılır. İlgili Image’da /bin/bash bulunduğu varsayımı ile
 docker attach <container_id>	Önceden detached modda -d başlatılan bir Container’a attach olmak için kullanılır
+***************************************************************
 
-
+***************************************************************
 1- docker login --username=yourhubusername ile login ol
 2- docker tag bb38976d03cf yourhubusername/verse_gapminder:firsttry ile push edeceğin image'a tag ver.
 3- docker push yourhubusername/verse_gapminder ile hub' push et.
+***************************************************************
 
+***************************************************************
 1- docker build -t <image name> .  --> Docker image olusturma
 2- docker create --name cont1 imagename --> Container olusturma
 3-  docker start <container_name>,
     docker start <container_id>,
     docker start <container_id_first_chars>
+***************************************************************
+    
+    
+**************nginx witg docker**********************************
+1. docker pull nginx --> nginx image yükle
+2. docker run --name docker-nginx -p 80:80 nginx   --> nginx image çalıştır. Container oluşturur.
+3. docker exec -it my-nginx bin/bash  -->  Oluşan container içine gir.
+*****************************************************************
 
 
