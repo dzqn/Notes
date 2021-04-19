@@ -2,14 +2,14 @@
 
 c#                      JS                    Java
 --------------------------------------------------
-                        find   
-                        findindex
-                        indexOf
-                        filter
+Find,First()            find   
+FındIndex               findindex
+IndexOf                 indexOf
+Where                   filter
 Select                  map
-Sum,Average             recude
-                        some
-                        every
+Sum,Aggregate           recude
+Any                     some
+All                     every
                         startsWith
                         endsWith
                         flat
