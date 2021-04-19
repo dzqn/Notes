@@ -1,0 +1,16 @@
+
+
+c#                      JS                    Java
+--------------------------------------------------
+                        find   
+                        findindex
+                        indexOf
+                        filter
+Select                  map
+Sum,Average             recude
+                        some
+                        every
+                        startsWith
+                        endsWith
+                        flat
+
