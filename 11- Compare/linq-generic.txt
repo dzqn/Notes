@@ -3,14 +3,14 @@
 c#                      JS                    Java
 --------------------------------------------------
 Find,First()            find   
-FındIndex               findindex
+FindIndex               findindex
 IndexOf                 indexOf
 Where                   filter
 Select                  map
 Sum,Aggregate           recude
 Any                     some
 All                     every
-                        startsWith
-                        endsWith
+StartsWith              startsWith
+EndsWith                endsWith
                         flat
 
