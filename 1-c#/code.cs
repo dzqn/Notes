@@ -1,3 +1,60 @@
+/*
+System.Collections.Generic Classes
+
+Dictionary<TKey,TValue>   --> 
+List<T>
+Queue<T>   --> Represents a first in, first out (FIFO) collection of objects.
+Stack<T>  --> Represents a last in, first out (LIFO) collection of objects.
+SortedList<TKey,TValue>  --> Represents a collection of key/value pairs that are sorted by key based on the associated IComparer<T> implementation
+Tuple
+
+System.Collections Classes
+
+ArrayList
+Hashtable  --> Represents a collection of key/value pairs that are organized based on the hash code of the key.
+Queue  --> 	Represents a first in, first out (FIFO) collection of objects.
+Stack  --> 	Represents a last in, first out (LIFO) collection of objects.
+SortedList
+BitArray
+*/
+
+
+/*
+
+c#                      JS                    Java
+--------------------------------------------------
+Find,First()            find
+FindIndex               findindex
+IndexOf                 indexOf
+Where                   filter
+Select                  map
+Sum, Aggregate           recude
+Any                     some
+All                     every
+StartsWith              startsWith
+EndsWith                endsWith
+                        flat
+*/
+
+
+// Delegate filter
+Func<VpPaperWorkIntDocumentTracking, bool> funcFirstFilter = (d) =>
+{
+    var divisionCode = "";
+
+    if (!string.IsNullOrEmpty(d.RecordCode))
+    {
+        var array = d.RecordCode.Split('_');
+        if (array?.Length > 0)
+            divisionCode = array[1];
+    }
+
+    return d.AppName.Equals(request.App.ToString()) && divisionCode.Equals(transactionHeader.PerformerUser.DivisionCode.ToString());
+};
+dataList = context.VpPaperWorkIntDocumentTracking.Where(funcFirstFilter).ToList();
+
+
+// switch case *************************************************************************
 switch (request.FlowAction)
 {
     case PaperworkActionStatusEnum.Received:
@@ -38,7 +95,6 @@ switch (request.FlowAction)
     default:
         break;
 }
-//************************************************************************************************
 switch (state, transition)
 {
     case (State.Running, Transition.Suspend):
@@ -56,11 +112,10 @@ switch (state, transition)
     default:
         throw new InvalidOperationException();
 }
-//************************************************************************************************
 state = (state, transition) switch
 {
-    (State.Running, Transition.Suspend)     => State.Suspended,
-    (State.Suspended, Transition.Resume)    => State.Running,
+    (State.Running, Transition.Suspend) => State.Suspended,
+    (State.Suspended, Transition.Resume) => State.Running,
     (State.Suspended, Transition.Terminate) => State.NotRunning,
     (State.NotRunning, Transition.Activate) => State.Running,
     _ => throw new InvalidOperationException()
