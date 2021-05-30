@@ -2,3 +2,9 @@
 docker pull redis           --> redis image download
 docker run redis            -->
 docker run -it ubuntu       -->  
+
+docker rub -it --name my_ubuntu ubuntu      --> my_ubuntu adında bir container ayağa kaldırır.
+docker start my_ubuntu      --> 
+docker rm my_ubuntu         -->     my_ubuntu adındaki container'i siler.
+docker container rm $(docker container ls -aq)  --> Tüm container'ları siler.
+
