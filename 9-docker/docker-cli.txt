@@ -1,0 +1,4 @@
+
+docker pull redis           --> redis image download
+docker run redis            -->
+docker run -it ubuntu       -->  
