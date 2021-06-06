@@ -1,15 +1,24 @@
+***
+    docker pull redis           --> redis image download
+    docker run redis            -->
+    docker run -it ubuntu       -->  
 
-docker pull redis           --> redis image download
-docker run redis            -->
-docker run -it ubuntu       -->  
+***
+    docker rub -it --name my_ubuntu ubuntu      --> my_ubuntu adında bir container ayağa kaldırır.
+    docker start my_ubuntu      --> 
+    docker stop my_ubuntu       -->
+    docker rm my_ubuntu         -->     my_ubuntu adındaki container'i siler.
+    docker container rm $(docker container ls -aq)  --> Tüm container'ları siler.
 
-docker rub -it --name my_ubuntu ubuntu      --> my_ubuntu adında bir container ayağa kaldırır.
-docker start my_ubuntu      --> 
-docker stop my_ubuntu       -->
-docker rm my_ubuntu         -->     my_ubuntu adındaki container'i siler.
-docker container rm $(docker container ls -aq)  --> Tüm container'ları siler.
+***
+    docker run -d redis         --> Arka planda çalış ve terminali bana bırak 
+    docker attach {id}          --> {id} li container'a attach olur
 
-docker run -d redis         --> Arka planda çalış ve terminali bana bırak 
-docker attach {id}          --> {id} li container'a attach olur
+***PORT
+    docker run  -p 3000:3000 {image}        --> 
 
-docker run  -p 3000:3000 {image}        --> 
+***VALUE
+    docker run -v /opt/data:/data/db  -p 27017:27017 mongo
+
+***INFO
+    docker inspect {container}  --> ilgli container ile ilgili tüm bilgiler
