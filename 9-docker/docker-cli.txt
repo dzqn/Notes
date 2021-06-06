@@ -9,3 +9,7 @@ docker stop my_ubuntu       -->
 docker rm my_ubuntu         -->     my_ubuntu adındaki container'i siler.
 docker container rm $(docker container ls -aq)  --> Tüm container'ları siler.
 
+docker run -d redis         --> Arka planda çalış ve terminali bana bırak 
+docker attach {id}          --> {id} li container'a attach olur
+
+docker run  -p 3000:3000 {image}        --> 
