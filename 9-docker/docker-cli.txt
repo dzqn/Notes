@@ -22,3 +22,6 @@
 
 ***INFO
     docker inspect {container}  --> ilgli container ile ilgili tüm bilgiler
+
+***ENVOIREMENT
+    docker run -e MYSQL_ROOT_PASSWORD=test123  mysql
