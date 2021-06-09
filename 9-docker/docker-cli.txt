@@ -17,7 +17,7 @@
 ***PORT
     docker run  -p 3000:3000 {image}        --> 
 
-***VALUE
+***VOLUME
     docker run -v /opt/data:/data/db  -p 27017:27017 mongo
 
 ***INFO
