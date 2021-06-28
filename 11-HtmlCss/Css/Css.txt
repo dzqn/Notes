@@ -1,0 +1,19 @@
+*   User agent stylesheet
+    normalize.css
+
+*   Blok elementler : display:block
+    div,p
+
+    inline elementler : display:inline
+    a,b,
+
+    display
+        inline: inline ol
+        block: block olarak davran
+        inline-block: inline olarak devam et ama block element önzellikleriin de al
+        initial
+        none
+        inherit
+        list-item
+        table,table-row,table-cell ...
+        flex,inline-flex
