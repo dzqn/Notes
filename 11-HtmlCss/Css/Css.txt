@@ -10,10 +10,19 @@
     display
         inline: inline ol
         block: block olarak davran
-        inline-block: inline olarak devam et ama block element önzellikleriin de al
+        inline-block: inline olarak devam et ama block element önzellikleriin de al.
         initial
         none
         inherit
         list-item
         table,table-row,table-cell ...
         flex,inline-flex
+
+*   position (left,right,top,bottom) un kullanılabilmesi için verilir.
+    relative
+    ablolute
+    fixed
+    static
+
+    z-index --> position değeri verlmesi gerekiyor. Yoksa çalışmaz.
+
