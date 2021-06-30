@@ -28,5 +28,7 @@
 
 *   1m = font-size
 *   max-width
-    
+
+*   box-sizing: border-box 
+                content-box
 
