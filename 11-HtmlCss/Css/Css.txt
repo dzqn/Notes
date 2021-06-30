@@ -26,3 +26,7 @@
 
     z-index --> position değeri verlmesi gerekiyor. Yoksa çalışmaz.
 
+*   1m = font-size
+*   max-width
+    
+
