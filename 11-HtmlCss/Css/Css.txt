@@ -32,3 +32,11 @@
 *   box-sizing: border-box 
                 content-box
 
+*   1em = font-size
+    1rm = route em --> em kapsayıcısındaki font-size'a bakar. rem ise route da(html tag) da yer alan font-size'a bakar
+    vw --> tüm genişlik %100
+    vh --> tüm yükseklik  %100
+
+*   visibility:hidden --> dom'dan silmez. Ekrandaki pozisyonu da silinmez. Ekranda bulunduğu yerde sadece beyaz bir kutu görünür.
+    display:none      --> dom'dan silme. Ekranda ki pozisyonu silinir. Sanki ekranda hiç yokmuş gibi davranır.
+
